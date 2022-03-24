@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: antiquewhite;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,22 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.cam {
+  position: absolute;
+  margin: auto;
+  inset: 0;
+  text-align: center;
+  z-index: 1;
+  width: 640px;
+  height: 480px;
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.cam-opened {
+  background-color: transparent;
+  border-color: cyan;
 }
